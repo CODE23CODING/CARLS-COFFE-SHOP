@@ -1,0 +1,121 @@
+
+@media (max-width:660px) {
+    .main_headings,
+    .primary_heading{
+     font-size: 3rem;
+    }
+}
+@media (max-width:600px) {
+     .cafe2,.cafe3{
+          width: 28rem;
+          height: 28rem;
+     }
+     .main_headings,
+     .primary_heading{
+          font-size: 2.5rem;
+     }
+}
+
+@media (max-width:550px) {
+     .cafe2{
+          transform: translateX(-60px);
+     }
+     .cafe3{
+          transform: translate(-60px, 80px);
+     }
+     .title,.title-two,.btn2,.btn3 {
+          transform: translateX(-50px);
+     }
+     .p1,.p2{
+          width: 500px;
+     }
+     .title-three{
+          transform: translateX(0px);
+     }
+     footer .container {
+          margin: 30px 20px;
+     }
+     .para {
+          margin-top: 80px;
+     }
+}
+
+/* ----------FOR THE HEIGHT------------ */
+
+@media (max-height:360px) {
+     .main_headings{
+          transform: translateY(-50px);
+          font-size: 2rem;
+     }
+     .primary_heading{
+          transform: translateY(45px);
+          font-size: 2rem;
+     }
+     .cafe1{
+          transform: translateY(-10px);
+          height: 10rem;
+          width: 10rem;
+     }
+     .btn1{
+          transform: translateY(150px);
+          padding: 5px 15px;
+     }
+
+     .cafe2{
+          transform: translateY(-40px);
+          height: 10rem;
+          width: 10rem;
+     }
+     .title{
+          transform: translateY(-40px);
+          font-size: 3rem;
+     }
+}
+
+
+/* ---------THIS IS FOR iPHONE SE--------- */
+ @media (max-width: 380px) {
+    
+     li a{
+       font-size:15px;
+       margin-left: 20px;
+     }
+     .main_headings{
+       font-size: 2.5rem;
+     }
+     .primary_heading{
+          font-size: 2.2rem;
+          word-spacing: 8px;
+     }
+     .btn1{
+          transform:translateY(290px) ;
+     }
+     .cafe2{
+          height: 22rem;
+          width: 22rem;
+          transform:translateX(-110px);
+     }
+     .title,.title-two{
+          transform:translateX(-110px);
+     }
+     .p1,.p2{
+          width: 380px;
+     }
+     .btn2{
+          transform: translate(-110px, 40px);
+     }
+     .btn3 {
+          transform: translate(-110px, 50px);
+     }
+     .cafe3{
+          height: 22rem;
+          width: 22rem;
+          transform:translate(-110px,50px);
+     }
+     .title-three{
+          transform:translateX(0px)
+     }
+}
+
+
+    
